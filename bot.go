@@ -19,7 +19,7 @@ var ChatActionHandler ChatActionManager
 
 func init() {
 	var err error
-	Bot, err = tgbotapi.NewBotAPI(os.Getenv("BOT_API_TOKEN"))
+	Bot, err = tgbotapi.NewBotAPI(os.Getenv("5927429053:AAGNa4VeQEOM5_Fj_mmq-21OqB6qr308DDU"))
 	if err != nil {
 		log.Panic(err)
 	}
